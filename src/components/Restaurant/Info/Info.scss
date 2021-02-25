@@ -1,0 +1,93 @@
+.restaurantInfoComponent {
+  .restaurantInfoRow {
+    padding: 12px 0px 12px 12px;
+    background: url('../../../img/burger-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .restaurantAddress {
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    line-height: 16px;
+    line-height: 22px;
+    color: black;
+  }
+  .rozet {
+    border: 0.5px solid #ec9922;
+    border-radius: 2px;
+    padding: 8px;
+    margin-right: 5px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+  }
+  .properties {
+    border-radius: 2px;
+    // padding-left: 9px;
+    // padding-right: 9px;
+    width: 41px;
+    margin-right: 5px;
+    display: block;
+    background-color: #abc44c;
+    .propertyTitle {
+      font-size: 12px;
+      font-weight: 700;
+      font-family: "Open Sans";
+      line-height: 16px;
+      font-weight: 600;
+      line-height: 22px;
+      color: white;
+      margin: 0px;
+      display: block;
+      text-align: center;
+    }
+    .propertyScore {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: "Open Sans";
+      line-height: 16px;
+      font-weight: 600;
+      line-height: 22px;
+      color: white;
+      margin: 0px;
+      font-size: 16px;
+      display: block;
+      text-align: center;
+    }
+  }
+  .priceAndTime {
+    margin-left: 25px;
+    img {
+      display: block;
+    }
+    .contentTitle,
+    .contentValue {
+      font-size: 10px;
+      line-height: 14px;
+      font-family: "Open Sans";
+    }
+    .contentTitle {
+      font-weight: 400;
+    }
+
+    .contentValue {
+      display: block;
+      font-weight: 700;
+    }
+  }
+  .restaurantCategoryPath {
+    font-size: 11px;
+    line-height: 15px;
+    margin-top: 12px;
+    color: #ff6508;
+    font-family: "Open Sans";
+    text-decoration: underline;
+
+    img {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}

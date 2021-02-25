@@ -1,0 +1,51 @@
+
+.basketComponent{
+    .basketTitle,.basketAddress {
+        font-family: 'Open Sans';
+        font-size: 12px;
+        line-height: 16px;
+        padding: 9px 0px 10px 11px;
+    }
+    .basketTitle {
+        font-weight: 700;
+        color: white;
+        margin: 0px;
+        background-color: #9D201A;
+    }
+    .basketAddress {
+        font-weight: 400;
+        color: black;
+        margin: 0px;
+        background-color: #F5D66F;
+    }
+    .basketList {
+        .basketEl {
+            padding:19px 0px 21px 11px;
+            display : flex;
+            align-items: center;
+            border: 1px solid #DCDCDC;
+        }
+        .basketEmpty {
+            font-family: 'Open Sans';
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 700;
+            color: black;
+            padding-left: 10px
+        }
+    }
+    .priceItems {
+        display: flex;
+        margin: 0px;
+        justify-content: space-between;
+        background-color: white;
+        padding: 5px;
+        h6 {
+            margin: 0px;
+            font-size: 12px;
+            font-family: "Open Sans";
+            font-weight: bold;
+        }
+    }
+
+}

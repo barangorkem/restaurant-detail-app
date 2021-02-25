@@ -1,0 +1,54 @@
+.menuComponent {
+  margin-top: 27px;
+  .list-group {
+    margin-bottom: 22px;
+    .list-group-item-heading {
+      margin: 0px;
+    }
+    .increment {
+      display: flex;
+
+      input,
+      button {
+        width: 30px;
+        height: 20px;
+        font-size: 11px;
+        line-height: 16px;
+        border-radius: 2px;
+      }
+
+      input {
+        padding: 2px 10px 2px 10px;
+        border-radius: 2px;
+      }
+      button {
+        padding: 0px 10px 0px 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+        background: #48912a;
+      }
+    }
+    .menuContent {
+      padding-left: 25px;
+
+      h4,
+      p {
+        font-family: "Open Sans";
+        font-size: 11px;
+      }
+      h4 {
+        color: #ff6508;
+        font-weight: bold;
+      }
+    }
+    .menuPrice {
+      h4 {
+        font-family: "Open Sans";
+        font-size: 11px;
+        text-align: right;
+        color: #ff6508;
+        font-weight: bold;
+      }
+    }
+  }
+}
